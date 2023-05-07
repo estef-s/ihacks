@@ -9,7 +9,7 @@
 
 <body>
     <div class="buttongrp" style="width:100%">
-        <button onclick="clicked()">Click me for the temperature today
+        <button onclick="clicked()">Click me for an outfit today!
         </button>
     </div>
 
@@ -20,12 +20,22 @@
     <h1 id="display4" class="max"> </h1>
 
     <div id="bottom">
-        <div class="outfits1">Masculine Outfits <br> <br>
-            <img width=400px height=650px src="outfit-male.jpg" alt="Default Image">
+        <div id = "clothing1" class="outfits1">Masculine Outfits <br> <br>
+            <div id="label1">
+
+            </div>
+            <div id="masc">
+
+            </div>
         </div>
 
-        <div class="outfits2">Feminine Outfits <br> <br>
-            <img width=400px height=650px src="outfit-female.jpg" alt="Default Image">
+        <div id = "clothing2" class="outfits2">Feminine Outfits <br> <br>
+            <div id="label2">
+
+            </div>
+            <div id="fem">
+
+            </div>
         </div>
     </div>
     <br>
@@ -36,10 +46,10 @@
     <br>
     <br>
     <div class="buttongrp" style="width:100%">
-        <button onclick="refreshPage()" style="width:25%">more</button>
-        <button onclick="popup1()" style="width:25%">favorite</button>
-        <button onclick="refreshPage()" style="width:25%">more</button>
-        <button onclick="popup2()" style="width:25%">favorite</button>
+        <button onclick="refreshPage1()" style="width:25%">More</button>
+        <button onclick="popup1()" style="width:25%">Favorite</button>
+        <button onclick="refreshPage2()" style="width:25%">More</button>
+        <button onclick="popup2()" style="width:25%">Favorite</button>
     </div>
     <script src="script.js"></script>
 </body>

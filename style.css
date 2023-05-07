@@ -55,7 +55,7 @@ h1 {
 
 
 #bottom {
-    height: 600px;
+    height: 700px;
     display: grid;
     grid-template-columns: auto auto;
     gap: 10px;
