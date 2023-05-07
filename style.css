@@ -12,25 +12,25 @@ h1 {
     color: hsl(234, 45%, 32%);
 }
 
-.feel{
+.feel {
     display: grid;
     place-content: center;
     color: hsl(234, 45%, 32%);
 }
 
-.min{
+.min {
     display: grid;
     place-content: center;
     color: hsl(234, 45%, 32%);
 }
 
-.max{
+.max {
     display: grid;
     place-content: center;
     color: hsl(234, 45%, 32%);
 }
 
-.buttongrp button{
+.buttongrp button {
     background-color: #ed81d2;
     border: 1px solid rgb(233, 42, 74);
     color: white;

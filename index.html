@@ -3,29 +3,44 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>My Website</title>
+    <title>Style Me</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
+    <div class="buttongrp" style="width:100%">
+        <button onclick="clicked()">Click me for the temperature today
+        </button>
+    </div>
 
-    <h1 class = "weather">the weather in Irvine today is </h1>
-    <h1 class= "feel">feels like </h1>
-    <h1 class= "min">minimum temperature is </h1>
-    <h1 class="max">maximum temperature is </h1>
+
+    <h1 id="display" class="weather"> </h1>
+    <h1 id="display2" class="feel"></h1>
+    <h1 id="display3" class="min"> </h1>
+    <h1 id="display4" class="max"> </h1>
 
     <div id="bottom">
-        <div class ="outfits1">Masculine Outfits</div>
-        <div class ="outfits2">Feminine Outfits</div>
-    </div>
-    
-    <div class="buttongrp" style="width:100%">
-        <button style="width:25%">more</button>
-        <button style="width:25%">favorite</button>
-        <button style="width:25%">more</button>
-        <button style="width:25%">favorite</button>
-    </div>
+        <div class="outfits1">Masculine Outfits <br> <br>
+            <img width=400px height=650px src="outfit-male.jpg" alt="Default Image">
+        </div>
 
+        <div class="outfits2">Feminine Outfits <br> <br>
+            <img width=400px height=650px src="outfit-female.jpg" alt="Default Image">
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="buttongrp" style="width:100%">
+        <button onclick="refreshPage()" style="width:25%">more</button>
+        <button onclick="popup1()" style="width:25%">favorite</button>
+        <button onclick="refreshPage()" style="width:25%">more</button>
+        <button onclick="popup2()" style="width:25%">favorite</button>
+    </div>
     <script src="script.js"></script>
 </body>
 
